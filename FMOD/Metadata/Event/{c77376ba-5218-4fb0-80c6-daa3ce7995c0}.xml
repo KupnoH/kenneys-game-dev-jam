@@ -5,7 +5,7 @@
 			<value>Green</value>
 		</property>
 		<property name="name">
-			<value>boat</value>
+			<value>ship</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -226,7 +226,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{9321095f-239c-4b6f-b2de-8663ed9dde1e}">
 		<property name="volume">
-			<value>4</value>
+			<value>6.5</value>
 		</property>
 		<property name="name">
 			<value>details</value>
@@ -263,7 +263,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{6d17435a-85ed-4777-b5c0-1fce35cd1daa}">
 		<property name="volume">
-			<value>-9.5</value>
+			<value>-3</value>
 		</property>
 		<property name="name">
 			<value>sail</value>
@@ -511,6 +511,9 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{80cc638f-f51d-4f74-b493-ab25407958af}">
+		<property name="volume">
+			<value>2</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{96eba519-de1b-4869-8599-dde3ab3d7c18}</destination>
 		</relationship>
