@@ -442,6 +442,8 @@ MonoBehaviour:
   MasterBanks:
   - Master
   Banks:
+  - ambience
+  - boat
   - music
   BanksToLoad: []
   LiveUpdatePort: 9264
