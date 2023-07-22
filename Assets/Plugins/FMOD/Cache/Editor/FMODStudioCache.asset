@@ -1,5 +1,33 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8762116189061119695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/boat
+  m_EditorClassIdentifier: 
+  Path: event:/boat
+  Guid:
+    Data1: -948734278
+    Data2: 1336955416
+    Data3: -1545943424
+    Data4: -1063945778
+  Banks:
+  - {fileID: -3729518707474376357}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -6606225281280129473}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-8113476905589262774
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15,10 +43,54 @@ MonoBehaviour:
   Path: FMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638256307062775768
+  lastModified: 638256394220888219
   FileSizes:
   - Name: Desktop
-    Value: 904
+    Value: 1020
+  Exists: 1
+--- !u!114 &-6606225281280129473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/boat/speed
+  m_EditorClassIdentifier: 
+  Name: speed
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 2371361891
+    data2: 1006097474
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-3729518707474376357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/boat.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Build/Desktop/boat.bank
+  Name: boat
+  StudioPath: bank:/boat
+  lastModified: 638256394239313380
+  FileSizes:
+  - Name: Desktop
+    Value: 1751616
   Exists: 1
 --- !u!114 &-1477622146666318052
 MonoBehaviour:
@@ -35,7 +107,7 @@ MonoBehaviour:
   Path: FMOD/Build/Desktop/music.bank
   Name: music
   StudioPath: bank:/music
-  lastModified: 638256307063943635
+  lastModified: 638256394222163788
   FileSizes:
   - Name: Desktop
     Value: 14142272
@@ -57,15 +129,17 @@ MonoBehaviour:
   - {fileID: 2638702133819739333}
   - {fileID: -1477622146666318052}
   - {fileID: 4093751721067031255}
+  - {fileID: -3729518707474376357}
   EditorEvents:
   - {fileID: 3690442001515758525}
   - {fileID: 1807135211340219447}
+  - {fileID: -8762116189061119695}
   EditorParameters: []
   MasterBanks:
   - {fileID: 2638702133819739333}
   StringsBanks:
   - {fileID: -8113476905589262774}
-  cacheTime: 638256307064823813
+  cacheTime: 638256394239313380
   cacheVersion: 131605
 --- !u!114 &1807135211340219447
 MonoBehaviour:
@@ -109,7 +183,7 @@ MonoBehaviour:
   Path: FMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638256307062775768
+  lastModified: 638256394220878082
   FileSizes:
   - Name: Desktop
     Value: 1036
@@ -156,7 +230,7 @@ MonoBehaviour:
   Path: FMOD/Build/Desktop/ambience.bank
   Name: ambience
   StudioPath: bank:/ambience
-  lastModified: 638256307064823813
+  lastModified: 638256394222429912
   FileSizes:
   - Name: Desktop
     Value: 889760
