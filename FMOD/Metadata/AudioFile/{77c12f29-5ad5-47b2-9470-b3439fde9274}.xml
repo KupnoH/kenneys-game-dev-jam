@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{77c12f29-5ad5-47b2-9470-b3439fde9274}">
+		<property name="assetPath">
+			<value>hits/light hit-003.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.73881249999999998</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{56b4fbed-347b-4089-bab9-0fd85597610f}</destination>
+		</relationship>
+	</object>
+</objects>

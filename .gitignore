@@ -145,6 +145,8 @@ PackageBackups/
 # UWP builds
 /UWP/*
 
+# Log files can be ignored.
+fmod_editor.log
 
 # Never ignore DLLs in the FMOD subfolder.
 !/[Aa]ssets/Plugins/FMOD/**/lib/*
