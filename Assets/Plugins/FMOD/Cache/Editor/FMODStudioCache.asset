@@ -15,10 +15,10 @@ MonoBehaviour:
   Path: FMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638256444869603982
+  lastModified: 638256557939387552
   FileSizes:
   - Name: Desktop
-    Value: 1142
+    Value: 1216
   Exists: 1
 --- !u!114 &-7404650768972914830
 MonoBehaviour:
@@ -59,10 +59,30 @@ MonoBehaviour:
   Path: FMOD/Build/Desktop/boat.bank
   Name: boat
   StudioPath: bank:/boat
-  lastModified: 638256444871585162
+  lastModified: 638256557939607494
   FileSizes:
   - Name: Desktop
     Value: 1751616
+  Exists: 1
+--- !u!114 &-2870181674540115256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/FX.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Build/Desktop/FX.bank
+  Name: FX
+  StudioPath: bank:/FX
+  lastModified: 638256557939327583
+  FileSizes:
+  - Name: Desktop
+    Value: 15616
   Exists: 1
 --- !u!114 &-2339883045538840833
 MonoBehaviour:
@@ -106,7 +126,7 @@ MonoBehaviour:
   Path: FMOD/Build/Desktop/music.bank
   Name: music
   StudioPath: bank:/music
-  lastModified: 638256444870924030
+  lastModified: 638256557940187298
   FileSizes:
   - Name: Desktop
     Value: 14142272
@@ -157,18 +177,20 @@ MonoBehaviour:
   - {fileID: 4093751721067031255}
   - {fileID: -3729518707474376357}
   - {fileID: 1373752228056803578}
+  - {fileID: -2870181674540115256}
   EditorEvents:
   - {fileID: 3690442001515758525}
   - {fileID: 1807135211340219447}
   - {fileID: 4531043515826334540}
   - {fileID: -2339883045538840833}
   - {fileID: -841562859973875749}
+  - {fileID: 1702430297007454583}
   EditorParameters: []
   MasterBanks:
   - {fileID: 2638702133819739333}
   StringsBanks:
   - {fileID: -8113476905589262774}
-  cacheTime: 638256444871918913
+  cacheTime: 638256557940187298
   cacheVersion: 131605
 --- !u!114 &1373752228056803578
 MonoBehaviour:
@@ -185,11 +207,38 @@ MonoBehaviour:
   Path: FMOD/Build/Desktop/Hits.bank
   Name: Hits
   StudioPath: bank:/Hits
-  lastModified: 638256444871918913
+  lastModified: 638256557939337571
   FileSizes:
   - Name: Desktop
     Value: 43296
   Exists: 1
+--- !u!114 &1702430297007454583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/coin_pickup
+  m_EditorClassIdentifier: 
+  Path: event:/coin_pickup
+  Guid:
+    Data1: -528701846
+    Data2: 1284773667
+    Data3: 1696379056
+    Data4: 1547961418
+  Banks:
+  - {fileID: -2870181674540115256}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 600
 --- !u!114 &1807135211340219447
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -232,7 +281,7 @@ MonoBehaviour:
   Path: FMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638256444869589884
+  lastModified: 638256557939347568
   FileSizes:
   - Name: Desktop
     Value: 1036
@@ -279,7 +328,7 @@ MonoBehaviour:
   Path: FMOD/Build/Desktop/ambience.bank
   Name: ambience
   StudioPath: bank:/ambience
-  lastModified: 638256444871187178
+  lastModified: 638256557939437539
   FileSizes:
   - Name: Desktop
     Value: 889760
