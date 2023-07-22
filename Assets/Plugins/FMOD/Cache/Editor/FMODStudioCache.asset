@@ -15,10 +15,10 @@ MonoBehaviour:
   Path: FMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638256217728545833
+  lastModified: 638256307062775768
   FileSizes:
   - Name: Desktop
-    Value: 802
+    Value: 904
   Exists: 1
 --- !u!114 &-1477622146666318052
 MonoBehaviour:
@@ -35,7 +35,7 @@ MonoBehaviour:
   Path: FMOD/Build/Desktop/music.bank
   Name: music
   StudioPath: bank:/music
-  lastModified: 638256217729339397
+  lastModified: 638256307063943635
   FileSizes:
   - Name: Desktop
     Value: 14142272
@@ -56,15 +56,44 @@ MonoBehaviour:
   - {fileID: -8113476905589262774}
   - {fileID: 2638702133819739333}
   - {fileID: -1477622146666318052}
+  - {fileID: 4093751721067031255}
   EditorEvents:
   - {fileID: 3690442001515758525}
+  - {fileID: 1807135211340219447}
   EditorParameters: []
   MasterBanks:
   - {fileID: 2638702133819739333}
   StringsBanks:
   - {fileID: -8113476905589262774}
-  cacheTime: 638256217729339397
+  cacheTime: 638256307064823813
   cacheVersion: 131605
+--- !u!114 &1807135211340219447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ambience
+  m_EditorClassIdentifier: 
+  Path: event:/ambience
+  Guid:
+    Data1: -76969463
+    Data2: 1143063522
+    Data3: 1736083847
+    Data4: -323383052
+  Banks:
+  - {fileID: 4093751721067031255}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 50000
 --- !u!114 &2638702133819739333
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -80,7 +109,7 @@ MonoBehaviour:
   Path: FMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638256217728525451
+  lastModified: 638256307062775768
   FileSizes:
   - Name: Desktop
     Value: 1036
@@ -112,3 +141,23 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 100501
+--- !u!114 &4093751721067031255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/ambience.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Build/Desktop/ambience.bank
+  Name: ambience
+  StudioPath: bank:/ambience
+  lastModified: 638256307064823813
+  FileSizes:
+  - Name: Desktop
+    Value: 889760
+  Exists: 1
