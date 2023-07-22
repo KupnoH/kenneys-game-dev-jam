@@ -16,6 +16,10 @@ public class ShipController : MonoBehaviour
     private CannonController cannonController;
     public float maxDistance = 10f;
     public LayerMask islandLayer;
+
+    public HealthBar healthBar;
+    public GoldController goldController;
+    public CrewController crewController;
     void Start()
     {
         cannonController = GetComponent<CannonController>();
@@ -82,6 +86,26 @@ public class ShipController : MonoBehaviour
     {
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(transform.position, maxDistance);
+    }
+
+    // Removes ampunt of health equal to damage @param.
+    // To add health use negative amount of damage, like -10f would add 10 health. TODO: fix it later
+    void UpdateShipHealth(float damage)
+    {
+        healthBar.SetHealth(damage);
+    }
+
+    // Adds newGold amount of gold. To remove gold use negative number
+    void UpdateGold(float newGold)
+    {
+        goldController.SetGold(newGold);
+    }
+
+    // Removes crew health by crewDamage.
+    // To add crew health use negative number. TODO: fix it later
+    void UpdateCrew(float crewDamage)
+    {
+        crewController.SetCrew(crewDamage);
     }
 }
 
