@@ -92,14 +92,14 @@ Material:
     - _Cutoff: 0.5
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
-    - _Distance: 70.5
+    - _Distance: 35.6
     - _DstBlend: 0
     - _DstBlendAlpha: 0
     - _EnvironmentReflections: 1
     - _FoamAmount: -4.71
     - _FoamScale: 10
     - _FoamSpeed: 0.2
-    - _Foam_Amount: -5.17
+    - _Foam_Amount: -5.11
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
@@ -131,14 +131,14 @@ Material:
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _DeepColor: {r: 0, g: 0.077321514, b: 0.3584906, a: 0}
+    - _DeepColor: {r: 0, g: 0.21977997, b: 1, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _FoamColor: {r: 1, g: 1, b: 1, a: 1}
     - _FoamTextureTiling: {r: 1, g: 1, b: 0, a: 0}
     - _FoamTiling: {r: 1, g: 1, b: 0, a: 0}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
     - _SurfaceColor: {r: 0, g: 0.88341147, b: 0.9433962, a: 0}
-    - _WaterTexture: {r: 10, g: 20, b: 0, a: 0}
+    - _WaterTexture: {r: 200, g: 200, b: 0, a: 0}
     - _WaterTextureTiling: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &5031711463212286104
