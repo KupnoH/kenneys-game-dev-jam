@@ -5,7 +5,7 @@
 			<value>Cyan Light 2</value>
 		</property>
 		<property name="name">
-			<value>ui_click_out</value>
+			<value>ui_click_close</value>
 		</property>
 		<property name="outputFormat">
 			<value>0</value>
