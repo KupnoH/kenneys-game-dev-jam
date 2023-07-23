@@ -1,9 +1,7 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class CrewController : MonoBehaviour
+public class CrewHealth : MonoBehaviour
 {
     public Image crewHealthBarFill;
     public Text crewHealthText;
@@ -12,7 +10,7 @@ public class CrewController : MonoBehaviour
     public float maxHealth = 250f;
 
     private float currentHealth;
-    
+
     // Start is called before the first frame update
     void Start()
     {
